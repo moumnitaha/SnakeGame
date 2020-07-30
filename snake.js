@@ -74,7 +74,7 @@ function setMove() {
 			eatSelf()
 			moveTail()
 		}
-	}, 100)
+	}, 115)
 }
 
 function getIntoWall(a) {

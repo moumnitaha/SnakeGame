@@ -94,18 +94,21 @@ main {
 
 .ngbtn {
     background: linear-gradient(45deg, #860086, rgb(20, 187, 209));
-	width: 80%;
+	width: 70%;
 	height: 60px;
 	outline: none;
 	color: #fff;
 	font-size: 36px;
 	text-align: center;
 	line-height: 0px;
-	font-family: Century Gothic, sans-serif;
-	border: 5px solid #f1f1f1;
+	font-family: cursive;, sans-serif;
+	border: none;
 	transition: 0.1s ease;
 	cursor: pointer;
 	text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+	border-radius: 30px;
+    box-shadow: 4px 4px 5px 0px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
 }
 
 .ngbtn:active {
@@ -133,11 +136,19 @@ main {
 	text-align: center;
 	font-family: Century Gothic;
 	margin-bottom: 10%;
+	text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+.lose {
+	font-size: 40px;
+	font-weight: bold;
+	font-family: cursive;
 }
 
 .counter::before {
 	content: "Heigh score: ";
 	font-weight: bold;
+	text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
 }
 
 .snake {
